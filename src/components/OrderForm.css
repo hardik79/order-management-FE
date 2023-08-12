@@ -1,0 +1,68 @@
+.order-form {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top:10px
+}
+button.btn-logout.btn.btn-danger{
+    left: 100%;
+}
+
+.order-form label {
+    font-weight: bold;
+}
+
+.order-form button {
+    margin-top: 10px;
+}
+
+.items-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.unpicked-items,
+.picked-items {
+    flex: 1;
+}
+
+.unpicked-items h5,
+.picked-items h5 {
+    margin-bottom: 10px;
+}
+
+.submit-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.move-button {
+    margin-left: 10px;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group .form-control {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group button {
+    width: 100px;
+}
+
+.text-left{
+    text-align: left;
+}
+.select-input {
+    margin-right: 10px; 
+  }
+
+  
